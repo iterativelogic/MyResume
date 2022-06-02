@@ -1,0 +1,73 @@
+.default-border {
+  border: 1px solid black;
+}
+
+header {
+  font-size: 30px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+nav>span {
+  margin-right: 20px;
+}
+
+.contact>.email,
+.contact>.phone {
+  font-size: 14px;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.main-layout>section {
+  border-bottom: 1px solid gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.skillset {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skillset>.skill {
+  padding: 10px;
+  width: 250px;
+}
+
+.skill>div {
+  margin-bottom: 5px;
+}
+
+.project {
+  margin-bottom: 10px;
+}
+
+.proj-company {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.proj-title {
+  font-weight: bold;
+}
+
+.proj-description {
+  margin-top: 5px;
+}
+
+.sec-title {
+  font-size: 30px;
+}
+
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: gray;
+}
